@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.planets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planets-image {
+  width: 240px;
+  height: 220px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .planets-image {
+    width: 410px;
+    height: 300px;
+  }
+}
+
+.name {
+  color: #f8fafc;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+}
+
+.description {
+  color: #f1f5f9;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 19px;
+    margin-bottom: 40px;
+  }
+}
